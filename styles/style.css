@@ -4,13 +4,12 @@ body{
 	background-color: #FFD8D9;
 	width:700px;
 	margin: 0 auto;padding: 0;
-	text-align:"left"
 }
 .top{
 	position: relative;
 	margin:0 auto;
 	width: 700px;
-	height: 160px;
+	height: 150px;
 	font: 14px/1.5 Arial
 }
 .top_x ul{
@@ -19,22 +18,25 @@ body{
 	top: 120px;
 	left: 0px;
 	width: 700px;
-	height: 33px
+	height: 33px;
+	padding: 0;
+    margin: 0;
 
 }
 .top_x li{
 	text-align: center;
 	float: left;
 	padding:0;
-	height: 33px
+	height:33px;
 	width:100px;
     background:url(../images/button1.jpg) repeat-x;
 }
  /*这里是标签选择，没有点*/ 
 .top_x a{
 	display: block;
-	padding: 9px 6px;
-	margin: 0px
+	line-height: 33px;
+	margin: 0;
+	height: 33px
 	}
 .top_x a:link{
 	color: #630002;
@@ -45,3 +47,135 @@ body{
 	text-decoration: underline;
 	background: url(../images/button1_bg.jpg);
 }
+         /*左部分内容*/
+      /*登陆*/
+ .container{
+ 	width: 700px;
+ 	position: relative;
+    margin-top: 20px; 
+ }
+ .container .content_z{
+ 	width: 180px;
+ 	float: left;
+ }
+ .container .content_z form{
+ 	background-color: #fff;
+ 	margin:0;
+ }
+ .container .content_z p{
+ 	margin:0px 10px 0px 22px;
+ 	padding: 2px;
+ }
+ .container .content_z form input.text{
+ 	border-bottom: 1px solid black;
+ 	border-left: none;
+ 	border-top: none;
+ 	border-right: none;
+ 	width: 90px;
+ }
+ .container .content_z .but1{
+ 	padding: 0;
+ 	margin:1px 0 0 0;
+ 	border: 1px solid #171515;
+
+ }
+ .container .content_z form a:hover{
+ 	text-decoration: underline;
+ }
+ 
+ 	/*分类*/
+ .fenlei{
+ 	background-color: #fff;
+ }
+ .container .content_z .fenlei h4{
+ 	margin:0px 15px 0px 15px;
+ 	padding: 5px 0px 0px 1px;
+ 	background-color:#FFD8D9;
+ }
+ .fenlei ul{
+ 	 margin-top: 0px;
+ }
+.fenlei ul li{
+	background: url(images/icon1.gif) no-repeat;
+	text-decoration: none;
+	list-style-type: none;
+	margin:4px 20px 4px 20px;
+	padding: 1px 0px 0px 15px;
+	border-bottom: 1px dashed gray;
+}
+.fenlei ul li a{
+	color: black;
+	margin-bottom: 2px;
+}
+.fenlei ul li a:hover{
+	text-decoration: underline;
+	color:red;
+}
+.fenlei .jiage{
+	margin-bottom: 100px;
+}
+     /*右部分内容*/
+ .content_y{
+ 	width: 518px;
+ 	float: right;
+ }
+ .content_y img.nave{
+ 	margin-top: 5px;
+ }
+ .content_y .kuaixun img{
+ 	margin-right:1px;
+ 	float: left;
+ }
+ .content_y .tuijian{
+ 	 background-color:#fff;
+ 	 height: 282px;
+ 	 margin:0;
+ 	 padding-top: 10px;
+ }
+ .content_y p{
+ 	text-align: center;
+ }
+
+ .content_y .xianhua{
+ 	width: 106px;
+ 	float: left;
+ 	margin:0px 11px 5px 11px;
+ }
+ .content_y p{
+ 	font-size: 12px;
+ 	line-height: 12px;
+ 	margin:2px 0 2px 0; 
+ }
+.content_y .xinpin{
+ 	 background-color:#fff;
+ 	 height: 127px;
+ 	 margin:0;
+ 	 padding-top: 10px;
+ }
+ .daogou .left{
+ 	float: left;
+ 	width: 200px;
+ }
+ .daogou ul li{
+ 	background:url(images/icon2.gif) no-repeat 10px 7px;
+ 	list-style-type: none;
+ 	margin: 5px 0px 5px 5px;
+ }
+ .daogou ul li a{
+ 	color: black;
+    text-decoration: none;
+ }
+ .daogou ul li a:hover{
+ 	color: red;
+ 	text-decoration: underline;
+ }
+.content_y .daogou{
+ 	 background-color:#fff;
+ 	 height: 127px;
+ 	 margin:0;
+ 	 padding-top: 10px;
+ }
+ .daogou .right{
+ 	float: right;
+ 	width: 250px;
+ }
