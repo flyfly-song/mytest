@@ -1,0 +1,47 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #FFD8D9;
+	width:700px;
+	margin: 0 auto;padding: 0;
+	text-align:"left"
+}
+.top{
+	position: relative;
+	margin:0 auto;
+	width: 700px;
+	height: 160px;
+	font: 14px/1.5 Arial
+}
+.top_x ul{
+	list-style-type: none;
+	position: absolute;
+	top: 120px;
+	left: 0px;
+	width: 700px;
+	height: 33px
+
+}
+.top_x li{
+	text-align: center;
+	float: left;
+	padding:0;
+	height: 33px
+	width:100px;
+    background:url(../images/button1.jpg) repeat-x;
+}
+ /*这里是标签选择，没有点*/ 
+.top_x a{
+	display: block;
+	padding: 9px 6px;
+	margin: 0px
+	}
+.top_x a:link{
+	color: #630002;
+	text-decoration: none;
+}
+.top_x a:hover{
+	color: #FFFFFF;
+	text-decoration: underline;
+	background: url(../images/button1_bg.jpg);
+}
